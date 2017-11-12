@@ -2,6 +2,10 @@
   "name": "redovisa",
   "version": "1.0.0",
   "description": "Redovisnings site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sceluswe/ramverk2/tree/master/redovisa"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -15,12 +19,16 @@
     "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
+    "ajv": "^5.3.0",
+    "ajv-keywords": "^2.1.1",
     "clean-css-cli": "^4.1.10",
     "codecov": "^3.0.0",
     "coveralls": "^3.0.0",
     "eslint": "^4.11.0",
     "eslint-plugin-pug": "^1.1.0",
     "eslint-plugin-react": "^7.4.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "html-minifier": "^3.5.6",
     "htmlhint": "^0.9.13",
     "js-yaml": "^3.10.0",
