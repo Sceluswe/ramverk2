@@ -11,7 +11,7 @@ const path = require("path");
 
 
 // Serve static files
-var staticFiles = path.join(__dirname, "public");
+var staticFiles = path.join(__dirname, "static");
 
 app.use(express.static(staticFiles));
 
