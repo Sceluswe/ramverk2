@@ -52,12 +52,18 @@ app.get("/me", (req, res) => {
     });
 });
 
-app.get("/test/page", (req, res) => {
-    res.render("page", {
-        title: "Hey",
-        message: "Hello there!"
+app.get("/report", (req, res) => {
+    res.render("report", {
+        title: "Redovisning",
     });
 });
+
+app.get("/about", (req, res) => {
+    res.render("about", {
+        title: "Om kursen",
+    });
+});
+
 
 // ---------------- default test routes ----------------
 // Add a route
