@@ -1,0 +1,27 @@
+.header {
+    margin-top: $magic-number;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.site-navbar {
+    height: $large-magic-number;
+    margin-bottom: $large-magic-number;
+    background: $blue;
+    text-align: center;
+    
+    & a {
+        padding: 6px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: $font-size-h2;
+        color: $white;
+    }
+}
+
+.site-footer {
+    padding: $magic-number;
+    background: $white;
+    text-align: center;
+}
