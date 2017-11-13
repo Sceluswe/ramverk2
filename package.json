@@ -7,7 +7,7 @@
     "url": "https://github.com/Sceluswe/ramverk2/"
   },
   "scripts": {
-    "postinstall": "cd redovisa && npm install"
+    "test": "cd redovisa && npm install && npm start"
   },
   "author": "Sceluswe",
   "license": "ISC"
