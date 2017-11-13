@@ -1,0 +1,14 @@
+{
+  "name": "redovisa",
+  "version": "1.0.0",
+  "description": "ramverk2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sceluswe/ramverk2/"
+  },
+  "scripts": {
+    "postinstall": "cd redovisa && npm install"
+  },
+  "author": "Sceluswe",
+  "license": "ISC"
+}
