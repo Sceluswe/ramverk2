@@ -10,5 +10,5 @@
     "postinstall": "cd redovisa && npm install"
   },
   "author": "Sceluswe",
-  "license": "ISC",
+  "license": "ISC"
 }
