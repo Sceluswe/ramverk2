@@ -2,25 +2,11 @@ extend layout.pug
 
 block main
     h2= title
-    
-    h3 Kmom01: Express
-    p Min redovisning
-    
-    h3 Kmom02:
-    p Min redovisning
-    
-    h3 Kmom03:
-    p Min redovisning
-    
-    h3 Kmom04:
-    p Min redovisning
-    
-    h3 Kmom05:
-    p Min redovisning
-    
-    h3 Kmom06:
-    p Min redovisning
-    
-    h3 Kmom07:
-    p Min redovisning
+    include:markdown-it ../static/content/kmom01.md
+    include:markdown-it ../static/content/kmom02.md
+    include:markdown-it ../static/content/kmom03.md
+    include:markdown-it ../static/content/kmom04.md
+    include:markdown-it ../static/content/kmom05.md
+    include:markdown-it ../static/content/kmom06.md
+    include:markdown-it ../static/content/kmom07.md
 

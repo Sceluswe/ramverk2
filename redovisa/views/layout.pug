@@ -6,20 +6,20 @@ html
         title= title
         block style
             link(rel="stylesheet", href="/css/main.css")
-    body
-        div(classname="container")
+    body(class="bg-pale-blue")
+        div(class="container bg-white")
             block header
                 div(class="site-header")
-                h1 Ramverk2
+                h1(class="header") Ramverk2
             block navbar
                 div(class="site-navbar")
-                <a href="/me">Me</a>
-                <a href="/report">Redovisning</a>
-                <a href="/about">Om</a>
+                    <a href="/me">Me</a>
+                    <a href="/report">Redovisning</a>
+                    <a href="/about">Om</a>
             block main
                 main(class="main") Mainblock
-            block footer
-                div(class="site-footer")
-                    p Copyright (c) by Emil Mattsson
-            block script
-                script(src="/js/move.js")
+        block footer
+            div(class="container-full-size site-footer")
+                p Copyright (c) by Emil Mattsson
+        block script
+            script(src="/js/move.js")

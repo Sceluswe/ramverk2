@@ -20,7 +20,8 @@
     "errors": [
     ],
     "exclude-list": [
-        "node_modules"
+        "node_modules",
+        "static"
     ],
     "format": "compact",
     "quiet": true

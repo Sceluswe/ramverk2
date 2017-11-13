@@ -1,0 +1,14 @@
+html {
+    background-color: $white;
+}
+
+body {
+    padding-top: 24px;
+    background-color: $pale-blue;
+}
+
+.container {
+    margin-bottom: $magic-number;
+    padding: $magic-number;
+    border-radius: $layout-radius;
+}
