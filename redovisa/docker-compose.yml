@@ -11,3 +11,25 @@ services:
     ports:
        - "1337:1337"
     command: "node index.js"
+  node6:
+    image: "node:6"
+    user: "node"
+    working_dir: /home/node/app/
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app/
+    ports:
+       - "1337:1337"
+    command: "node index.js"
+  node5:
+    image: "node:5"
+    user: "node"
+    working_dir: /home/node/app/
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app/
+    ports:
+       - "1337:1337"
+    command: "node index.js"
