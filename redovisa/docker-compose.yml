@@ -1,0 +1,13 @@
+version: "3"
+services:
+  node8:
+    image: "node:8"
+    user: "node"
+    working_dir: /home/node/app/
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app/
+    ports:
+       - "1337:1337"
+    command: "node index.js"
